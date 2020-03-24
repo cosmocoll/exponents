@@ -4,21 +4,35 @@
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
-        <div>
-            <p id="base">When the number
-            </p>
-                <form>
-                    <input type="number">
-                </form>
-                    <p>has an exponent of
-                    </p>
+        <div class="container">
+            <section class="base">
+                <p>When
+                </p>
                     <form>
                         <input type="number">
                     </form>
-                        <p>the product is
+            </section>
+                <section class="exponent">
+                        <p>has an exponent of
                         </p>
-        </div>
+                        <form>
+                            <input type="number">
+                        </form>
+                </section>
+                    <section class="product">
+                            <p>the product is
+                            </p>
+                            <span>
+                            </span>
+                    </section>
+                        <form class="calculator">
+                            <input type="button" value="calculate">
+                        </form>         
+        </div> 
         <script src="app.js">
         </script>
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+            </style>
     </body>
 </html>
